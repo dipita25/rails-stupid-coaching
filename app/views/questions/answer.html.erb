@@ -1,2 +1,5 @@
 <h2>answer page</h2>
-<p> Pour la question <strong><%= params["question"] %></strong>, la réponse est <strong><%= @answer %></strong></p>
+<p> QUESTION :  <strong><%= params["question"] %></strong></p>
+<p>ANSWER : <strong><%= @answer %></strong></p>
+
+<%= link_to "Ask a new question", ask_path %>
